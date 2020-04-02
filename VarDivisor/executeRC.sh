@@ -1,50 +1,70 @@
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 1/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 2/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 3/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 4/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 5/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 6/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 7/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 8/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 9/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data fts
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAll 1/TG.data index
-../../../../Eclipse/RelationalCondition/Debug/RelationalCondition 1/queryAny 1/TG.data index
+cd 10/
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAll TG.data index
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data fts
+../../../../../Eclipse/RelationalCondition/Debug/RelationalCondition queryAny TG.data index
+cd ..
 
