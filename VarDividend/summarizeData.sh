@@ -1,0 +1,32 @@
+cat 
+cd 1/
+./../../DataGenerator 1.in
+cd ..
+cd 2/
+./../../DataGenerator 2.in
+cd ..
+cd 3/
+./../../DataGenerator 3.in
+cd ..
+cd 4/
+./../../DataGenerator 4.in
+cd ..
+cd 5/
+./../../DataGenerator 5.in
+cd ..
+cd 6/
+./../../DataGenerator 6.in
+cd ..
+cd 7/
+./../../DataGenerator 7.in
+cd ..
+cd 8/
+./../../DataGenerator 8.in
+cd ..
+cd 9/
+./../../DataGenerator 9.in
+cd ..
+cd 10/
+./../../DataGenerator 10.in
+cd ..
+
