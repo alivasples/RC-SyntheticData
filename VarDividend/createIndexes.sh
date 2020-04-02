@@ -1,5 +1,4 @@
 cd 1/
-./../../DataGenerator 1.in
 ../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
 ../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
 cd ..

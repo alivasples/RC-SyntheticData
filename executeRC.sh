@@ -1,6 +1,6 @@
 cd VarDividend/
-sh createIndexes.sh
+sh executeRC.sh
 cd ..
 cd VarDivisor/
-sh createIndexes.sh
+sh executeRC.sh
 cd ..
