@@ -1,0 +1,4 @@
+1) sh createTestCases.sh
+2) sh createIndexes.sh
+3) sh executeRC.sh
+4) sh summarizeData.sh

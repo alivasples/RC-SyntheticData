@@ -4,3 +4,9 @@ cd ..
 cd VarDivisor/
 sh createTestCases.sh
 cd ..
+cd VarGroups/
+sh createTestCases.sh
+cd ..
+cd VarReqs/
+sh createTestCases.sh
+cd ..

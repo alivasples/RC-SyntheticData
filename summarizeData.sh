@@ -4,3 +4,9 @@ cd ..
 cd VarDivisor/
 sh summarizeData.sh
 cd ..
+cd VarGroups/
+sh summarizeData.sh
+cd ..
+cd VarReqs/
+sh summarizeData.sh
+cd ..

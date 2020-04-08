@@ -1,0 +1,11 @@
+T1.data;T2.data;9;any
+1,or,(2,and,(3,and,(4,or,(5,or,(6,or,(7,and,(8,or,9)))))))
+ATT0;ATT0;EUCLIDIAN;0.8;
+ATT1;ATT1;>;0;
+ATT2;ATT2;EUCLIDIAN;0.47;
+ATT3;ATT3;=;0;
+ATT4;ATT4;EUCLIDIAN;0.62;
+ATT5;ATT5;<=;0;
+ATT6;ATT6;>=;0;
+ATT7;ATT7;>;0;
+ATT8;ATT8;EUCLIDIAN;0.81;

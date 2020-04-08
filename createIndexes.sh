@@ -4,3 +4,9 @@ cd ..
 cd VarDivisor/
 sh createIndexes.sh
 cd ..
+cd VarGroups/
+sh createIndexes.sh
+cd ..
+cd VarReqs/
+sh createIndexes.sh
+cd ..

@@ -1,0 +1,13 @@
+sh createTestCases.sh
+sh createIndexes.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh executeRC.sh
+sh summarizeData.sh

@@ -4,3 +4,9 @@ cd ..
 cd VarDivisor/
 sh executeRC.sh
 cd ..
+cd VarGroups/
+sh executeRC.sh
+cd ..
+cd VarReqs/
+sh executeRC.sh
+cd ..

@@ -1,41 +1,400 @@
 cd 1/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 2/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 3/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 4/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 5/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 6/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 7/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 8/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 9/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
 cd ..
+
 cd 10/
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 0 simple
-../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data 1 simple
+sh createIndexes.sh
+cd ..
+
+cd 11/
+sh createIndexes.sh
+cd ..
+
+cd 12/
+sh createIndexes.sh
+cd ..
+
+cd 13/
+sh createIndexes.sh
+cd ..
+
+cd 14/
+sh createIndexes.sh
+cd ..
+
+cd 15/
+sh createIndexes.sh
+cd ..
+
+cd 16/
+sh createIndexes.sh
+cd ..
+
+cd 17/
+sh createIndexes.sh
+cd ..
+
+cd 18/
+sh createIndexes.sh
+cd ..
+
+cd 19/
+sh createIndexes.sh
+cd ..
+
+cd 20/
+sh createIndexes.sh
+cd ..
+
+cd 21/
+sh createIndexes.sh
+cd ..
+
+cd 22/
+sh createIndexes.sh
+cd ..
+
+cd 23/
+sh createIndexes.sh
+cd ..
+
+cd 24/
+sh createIndexes.sh
+cd ..
+
+cd 25/
+sh createIndexes.sh
+cd ..
+
+cd 26/
+sh createIndexes.sh
+cd ..
+
+cd 27/
+sh createIndexes.sh
+cd ..
+
+cd 28/
+sh createIndexes.sh
+cd ..
+
+cd 29/
+sh createIndexes.sh
+cd ..
+
+cd 30/
+sh createIndexes.sh
+cd ..
+
+cd 31/
+sh createIndexes.sh
+cd ..
+
+cd 32/
+sh createIndexes.sh
+cd ..
+
+cd 33/
+sh createIndexes.sh
+cd ..
+
+cd 34/
+sh createIndexes.sh
+cd ..
+
+cd 35/
+sh createIndexes.sh
+cd ..
+
+cd 36/
+sh createIndexes.sh
+cd ..
+
+cd 37/
+sh createIndexes.sh
+cd ..
+
+cd 38/
+sh createIndexes.sh
+cd ..
+
+cd 39/
+sh createIndexes.sh
+cd ..
+
+cd 40/
+sh createIndexes.sh
+cd ..
+
+cd 41/
+sh createIndexes.sh
+cd ..
+
+cd 42/
+sh createIndexes.sh
+cd ..
+
+cd 43/
+sh createIndexes.sh
+cd ..
+
+cd 44/
+sh createIndexes.sh
+cd ..
+
+cd 45/
+sh createIndexes.sh
+cd ..
+
+cd 46/
+sh createIndexes.sh
+cd ..
+
+cd 47/
+sh createIndexes.sh
+cd ..
+
+cd 48/
+sh createIndexes.sh
+cd ..
+
+cd 49/
+sh createIndexes.sh
+cd ..
+
+cd 50/
+sh createIndexes.sh
+cd ..
+
+cd 51/
+sh createIndexes.sh
+cd ..
+
+cd 52/
+sh createIndexes.sh
+cd ..
+
+cd 53/
+sh createIndexes.sh
+cd ..
+
+cd 54/
+sh createIndexes.sh
+cd ..
+
+cd 55/
+sh createIndexes.sh
+cd ..
+
+cd 56/
+sh createIndexes.sh
+cd ..
+
+cd 57/
+sh createIndexes.sh
+cd ..
+
+cd 58/
+sh createIndexes.sh
+cd ..
+
+cd 59/
+sh createIndexes.sh
+cd ..
+
+cd 60/
+sh createIndexes.sh
+cd ..
+
+cd 61/
+sh createIndexes.sh
+cd ..
+
+cd 62/
+sh createIndexes.sh
+cd ..
+
+cd 63/
+sh createIndexes.sh
+cd ..
+
+cd 64/
+sh createIndexes.sh
+cd ..
+
+cd 65/
+sh createIndexes.sh
+cd ..
+
+cd 66/
+sh createIndexes.sh
+cd ..
+
+cd 67/
+sh createIndexes.sh
+cd ..
+
+cd 68/
+sh createIndexes.sh
+cd ..
+
+cd 69/
+sh createIndexes.sh
+cd ..
+
+cd 70/
+sh createIndexes.sh
+cd ..
+
+cd 71/
+sh createIndexes.sh
+cd ..
+
+cd 72/
+sh createIndexes.sh
+cd ..
+
+cd 73/
+sh createIndexes.sh
+cd ..
+
+cd 74/
+sh createIndexes.sh
+cd ..
+
+cd 75/
+sh createIndexes.sh
+cd ..
+
+cd 76/
+sh createIndexes.sh
+cd ..
+
+cd 77/
+sh createIndexes.sh
+cd ..
+
+cd 78/
+sh createIndexes.sh
+cd ..
+
+cd 79/
+sh createIndexes.sh
+cd ..
+
+cd 80/
+sh createIndexes.sh
+cd ..
+
+cd 81/
+sh createIndexes.sh
+cd ..
+
+cd 82/
+sh createIndexes.sh
+cd ..
+
+cd 83/
+sh createIndexes.sh
+cd ..
+
+cd 84/
+sh createIndexes.sh
+cd ..
+
+cd 85/
+sh createIndexes.sh
+cd ..
+
+cd 86/
+sh createIndexes.sh
+cd ..
+
+cd 87/
+sh createIndexes.sh
+cd ..
+
+cd 88/
+sh createIndexes.sh
+cd ..
+
+cd 89/
+sh createIndexes.sh
+cd ..
+
+cd 90/
+sh createIndexes.sh
+cd ..
+
+cd 91/
+sh createIndexes.sh
+cd ..
+
+cd 92/
+sh createIndexes.sh
+cd ..
+
+cd 93/
+sh createIndexes.sh
+cd ..
+
+cd 94/
+sh createIndexes.sh
+cd ..
+
+cd 95/
+sh createIndexes.sh
+cd ..
+
+cd 96/
+sh createIndexes.sh
+cd ..
+
+cd 97/
+sh createIndexes.sh
+cd ..
+
+cd 98/
+sh createIndexes.sh
+cd ..
+
+cd 99/
+sh createIndexes.sh
+cd ..
+
+cd 100/
+sh createIndexes.sh
 cd ..
 
