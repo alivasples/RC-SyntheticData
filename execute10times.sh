@@ -1,4 +1,4 @@
-#sh createTestCases.sh
+sh createTestCases.sh
 sh createIndexes.sh
 sh summarizeData.sh
 sh executeRC.sh
