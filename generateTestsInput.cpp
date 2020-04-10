@@ -26,7 +26,8 @@ int nrReqAtts;
 int reqAttsTypes[100];
 int reqAttsSizes[100];
 string reqAtts;
-
+// For our own app
+double percentage;
 
 string FLOATATT(int x){ return "(float,"+to_string(x)+") EUCLIDIAN 0.25\nUNIFORM 0 1\n";}
 string STRINGATT(int x){ return "(string,"+to_string(x)+") LEDIT 0.25\nUNIFORM\n";}
@@ -96,8 +97,21 @@ void printCreateIndexes(string directory){
 void generateRandomAtts(){
 	int type;
 	reqAtts = "";
+	int nrSimpleAtts = nrReqAtts*percentage;
+	int nrComplexAtts = nrReqAtts - nrSimpleAtts;
 	for(int i=0; i<nrReqAtts; i++){
-		type = rand()%3; // we wont work with coplex strings for now
+		// This line is for random types
+		// type = rand()%3; // we wont work with coplex strings for now
+		// In this case we will have defined the nr of simple atts and the number of complex atts
+		if(nrSimpleAtts > 0){
+			type = rand()%2;
+			nrSimpleAtts--;
+		}
+		else{
+			type = COMP_FLOAT;
+			nrComplexAtts--;
+		}
+		// Let's start
 		reqAttsTypes[i] = type;
 		reqAtts += "ATT"+to_string(i);
 		if(type == SIMP_FLOAT){
@@ -105,14 +119,15 @@ void generateRandomAtts(){
 			reqAtts += FLOATATT(1);
 		}
 		else if(type == COMP_FLOAT){ 
-			reqAttsSizes[i] = rand()%10 + 2;
+			//reqAttsSizes[i] = rand()%10 + 2; // variable characteristics vector size
+			reqAttsSizes[i] = 10; // fixed characteristics vector size
 			reqAtts += FLOATATT(reqAttsSizes[i]);
 			for(int j=1; j<reqAttsSizes[i]; j++){
 				reqAtts += "UNIFORM 0 1\n";
 			}
 		}
 		else{
-			reqAttsSizes[i] = rand()%90 + 10;	
+			reqAttsSizes[i] = rand()%10 + 1;	
 		 	reqAtts += STRINGATT(reqAttsSizes[i]);
 	 	}
 	}
@@ -130,6 +145,7 @@ void reinitValues(){
 	distInitial = "UNIFORM";	
 	nrReqAtts = 2;
 	reqAtts = "";
+	percentage = 0.5;
 	generateRandomAtts();
 }
 
@@ -208,7 +224,26 @@ void generateVarReqAtts(int begin, int end, int nrBins){
 		i++;
 	}
 }
-
+/*
+void generateVarPercentage(int begin, int end, int nrBins){
+	string basePath = "VarReqs/";
+	string fullPath = "";
+	string fileName = "";
+	string fileExt = ".in";
+	int binSize = (end-begin)/(nrBins-1);
+	int i = 1;
+	for(nrReqAtts=begin; nrReqAtts<=end; nrReqAtts+=binSize){
+		generateRandomAtts();
+		fileName = to_string(i);
+		fullPath = basePath + fileName + "/";
+		system(("mkdir -p "+fullPath).c_str());
+		printValues(fullPath+fileName+".in");
+		printQueries(fullPath);
+		printCreateIndexes(fullPath);
+		i++;
+	}
+}
+*/
 int main(){
 	srand((unsigned)time(0));
 	reinitValues();
@@ -218,6 +253,8 @@ int main(){
 	reinitValues();
 	generateVarGroups(11,110,100);
 	reinitValues();
-	generateVarReqAtts(2,51,50);
+	generateVarReqAtts(2,100,50);
+	//reinitValues();
+	//generateVarPercentage(0.1,1.0,50);
 	return 0;
 }
