@@ -228,6 +228,27 @@ void generateVarReqAtts(int begin, int end, int nrBins){
 	}
 }
 
+void generateVarThreshold(int begin, int end, int nrBins){
+	string basePath = "VarThreshold/";
+	string fullPath = "";
+	string fileName = "";
+	string fileExt = ".in";
+	int binSize = (end-begin)/(nrBins-1);
+	int i = 1;
+	for(threshold=(double)begin/100.0; nrReqAtts<=(double)end/100.0; nrReqAtts+=(double)binSize/100.0){
+		generateRandomAtts();
+		fileName = to_string(i);
+		fullPath = basePath + fileName + "/";
+		system(("mkdir -p "+fullPath).c_str());
+		printValues(fullPath+fileName+".in");
+		printQueries(fullPath);
+		printCreateIndexes(fullPath);
+		i++;
+	}
+}
+
+
+
 /*
 void generateVarPercentage(int begin, int end, int nrBins){
 	string basePath = "VarReqs/";
@@ -259,6 +280,8 @@ int main(){
 	generateVarGroups(11,110,100);
 	reinitValues();
 	generateVarReqAtts(2,100,50);
+	reinitValues();
+	generateVarThreshold(1,100,50);
 	//reinitValues();
 	//generateVarPercentage(1,100,50);
 	return 0;
