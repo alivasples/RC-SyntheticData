@@ -10,3 +10,6 @@ cd ..
 cd VarReqs/
 sh createIndexes.sh
 cd ..
+cd VarThreshold/
+sh createIndexes.sh
+cd ..

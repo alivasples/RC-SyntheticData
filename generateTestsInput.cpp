@@ -235,7 +235,7 @@ void generateVarThreshold(int begin, int end, int nrBins){
 	string fileExt = ".in";
 	int binSize = (end-begin)/(nrBins-1);
 	int i = 1;
-	for(threshold=(double)begin/100.0; nrReqAtts<=(double)end/100.0; nrReqAtts+=(double)binSize/100.0){
+	for(threshold=(double)begin/100.0; threshold<=(double)end/100.0; threshold+=(double)binSize/100.0){
 		generateRandomAtts();
 		fileName = to_string(i);
 		fullPath = basePath + fileName + "/";

@@ -10,3 +10,6 @@ cd ..
 cd VarReqs/
 sh avgData.sh
 cd ..
+cd VarThreshold/
+sh avgData.sh
+cd ..

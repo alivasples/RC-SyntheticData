@@ -10,3 +10,6 @@ cd ..
 cd VarReqs/
 sh createTestCases.sh
 cd ..
+cd VarThreshold/
+sh createTestCases.sh
+cd ..

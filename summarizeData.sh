@@ -10,3 +10,6 @@ cd ..
 cd VarReqs/
 sh summarizeData.sh
 cd ..
+cd VarThreshold/
+sh summarizeData.sh
+cd ..

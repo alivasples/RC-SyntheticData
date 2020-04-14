@@ -10,3 +10,6 @@ cd ..
 cd VarReqs/
 sh executeRC.sh
 cd ..
+cd VarThreshold/
+sh executeRC.sh
+cd ..
