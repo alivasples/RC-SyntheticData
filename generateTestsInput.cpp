@@ -28,9 +28,10 @@ int reqAttsSizes[100];
 string reqAtts;
 // For our own app
 double percentage;
+double threshold;
 
-string FLOATATT(int x){ return "(float,"+to_string(x)+") EUCLIDIAN 0.25\nUNIFORM 0 1\n";}
-string STRINGATT(int x){ return "(string,"+to_string(x)+") LEDIT 0.25\nUNIFORM\n";}
+string FLOATATT(int x){ return "(float,"+to_string(x)+") EUCLIDIAN "+to_string(threshold)+"\nUNIFORM 0 1\n";}
+string STRINGATT(int x){ return "(string,"+to_string(x)+") LEDIT "+to_string(threshold)+"\nUNIFORM\n";}
 
 void printValues(string directory){
 	ofstream output(directory);
@@ -71,7 +72,8 @@ void printQuery(string directory, string qType){
 		if(reqAttsTypes[i] == SIMP_FLOAT or reqAttsTypes[i] == SIMP_STRING){
 			output<<operation[rand()%5]<<";0;";
 		}
-		else if(reqAttsTypes[i] == COMP_FLOAT) output<<"EUCLIDIAN;"<<(double)(rand()%99+1)/100.0<<";";
+		//else if(reqAttsTypes[i] == COMP_FLOAT) output<<"EUCLIDIAN;"<<(double)(rand()%99+1)/100.0<<";";
+		else if(reqAttsTypes[i] == COMP_FLOAT) output<<"EUCLIDIAN;"+to_string(threshold)+";";
 		else output<<"LEDIT;0;";
 		output<<endl;
 	}
@@ -146,6 +148,7 @@ void reinitValues(){
 	nrReqAtts = 2;
 	reqAtts = "";
 	percentage = 0.5;
+	threshold = 0.25;
 	generateRandomAtts();
 }
 
@@ -224,6 +227,7 @@ void generateVarReqAtts(int begin, int end, int nrBins){
 		i++;
 	}
 }
+
 /*
 void generateVarPercentage(int begin, int end, int nrBins){
 	string basePath = "VarReqs/";
@@ -244,6 +248,7 @@ void generateVarPercentage(int begin, int end, int nrBins){
 	}
 }
 */
+
 int main(){
 	srand((unsigned)time(0));
 	reinitValues();
@@ -255,6 +260,6 @@ int main(){
 	reinitValues();
 	generateVarReqAtts(2,100,50);
 	//reinitValues();
-	//generateVarPercentage(0.1,1.0,50);
+	//generateVarPercentage(1,100,50);
 	return 0;
 }
