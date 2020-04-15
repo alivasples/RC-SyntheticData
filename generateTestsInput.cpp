@@ -271,9 +271,9 @@ void generateVarGDistribution(){
 	string fileExt = ".in";
 	int i = 1;
 	for(int j=1; j<=90; j++){
-		if(j==1) startDistribution = "NORMAL";
-		if(j==31) startDistribution = "UNIFORM";
-		if(j==61) startDistribution = "EXPONENCIAL";
+		if(j==1) toDistribution = "NORMAL";
+		if(j==31) toDistribution = "UNIFORM";
+		if(j==61) toDistribution = "EXPONENCIAL";
 		generateRandomAtts();
 		fileName = to_string(i);
 		fullPath = basePath + fileName + "/";
@@ -308,9 +308,9 @@ void generateVarPercentage(int begin, int end, int nrBins){
 
 int main(){
 	srand((unsigned)time(0));
+	/*
 	reinitValues();
 	generateRandomCases(100);
-	/*
 	reinitValues();
 	generateVarDividend(100,10000,100);
 	reinitValues();
