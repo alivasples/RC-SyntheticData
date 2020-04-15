@@ -1,3 +1,6 @@
+cd RandomCases/
+sh createTestCases.sh
+cd ..
 cd VarDividend/
 sh createTestCases.sh
 cd ..
@@ -11,5 +14,8 @@ cd VarReqs/
 sh createTestCases.sh
 cd ..
 cd VarThreshold/
+sh createTestCases.sh
+cd ..
+cd VarDistribution/
 sh createTestCases.sh
 cd ..

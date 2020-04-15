@@ -1,3 +1,6 @@
+cd RandomCases/
+sh summarizeData.sh
+cd ..
 cd VarDividend/
 sh summarizeData.sh
 cd ..
@@ -11,5 +14,8 @@ cd VarReqs/
 sh summarizeData.sh
 cd ..
 cd VarThreshold/
+sh summarizeData.sh
+cd ..
+cd VarDistribution/
 sh summarizeData.sh
 cd ..

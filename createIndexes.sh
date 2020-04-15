@@ -1,3 +1,6 @@
+cd RandomCases/
+sh createIndexes.sh
+cd ..
 cd VarDividend/
 sh createIndexes.sh
 cd ..
@@ -11,5 +14,8 @@ cd VarReqs/
 sh createIndexes.sh
 cd ..
 cd VarThreshold/
+sh createIndexes.sh
+cd ..
+cd VarDistribution/
 sh createIndexes.sh
 cd ..
