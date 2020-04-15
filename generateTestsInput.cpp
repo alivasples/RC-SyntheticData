@@ -19,9 +19,9 @@ double correlation;
 int nrGroups;
 double overlapGroups;
 string outlier;
-string distShared;
-string distGet;
-string distInitial;
+string startDistribution;
+string fromDistribution;
+string toDistribution;
 int nrReqAtts;
 int reqAttsTypes[100];
 int reqAttsSizes[100];
@@ -41,9 +41,9 @@ void printValues(string directory){
 	output<<nrGroups<<endl;
 	output<<outlier<<endl;
 	output<<overlapGroups<<endl;
-	output<<distShared<<endl;
-	output<<distGet<<endl;
-	output<<distInitial<<endl;
+	output<<startDistribution<<endl;
+	output<<fromDistribution<<endl;
+	output<<toDistribution<<endl;
 	output<<nrReqAtts<<endl;
 	output<<reqAtts;
 	output<<nrReqAtts+1<<endl;
@@ -142,14 +142,30 @@ void reinitValues(){
 	nrGroups = 10;
 	outlier = "outlier false";
 	overlapGroups = 0.1;
-	distShared = "EXPONENCIAL";
-	distGet = "UNIFORM";
-	distInitial = "UNIFORM";	
+	startDistribution = "EXPONENCIAL";
+	fromDistribution = "UNIFORM";
+	toDistribution = "UNIFORM";	
 	nrReqAtts = 2;
 	reqAtts = "";
 	percentage = 0.5;
 	threshold = 0.25;
 	generateRandomAtts();
+}
+
+void generateRandomCases(int nrCases){
+	string basePath = "RandomCases/";
+	string fullPath = "";
+	string fileName = "";
+	string fileExt = ".in";
+	for(int i=1; i<=nrCases; i++){
+		generateRandomAtts();
+		fileName = to_string(i);
+		fullPath = basePath + fileName + "/";
+		system(("mkdir -p "+fullPath).c_str());
+		printValues(fullPath+fileName+".in");
+		printQueries(fullPath);
+		printCreateIndexes(fullPath);
+	}
 }
 
 void generateVarDividend(int begin, int end, int nrBins){
@@ -247,7 +263,26 @@ void generateVarThreshold(int begin, int end, int nrBins){
 	}
 }
 
-
+void generateVarGDistribution(){
+	string basePath = "VarDistribution/";
+	string fullPath = "";
+	string fileName = "";
+	string fileExt = ".in";
+	int i = 1;
+	for(int j=1; j<=90; j++){
+		if(j==1) startDistribution = "NORMAL";
+		if(j==31) startDistribution = "UNIFORM";
+		if(j==61) startDistribution = "EXPONENCIAL";
+		generateRandomAtts();
+		fileName = to_string(i);
+		fullPath = basePath + fileName + "/";
+		system(("mkdir -p "+fullPath).c_str());
+		printValues(fullPath+fileName+".in");
+		printQueries(fullPath);
+		printCreateIndexes(fullPath);
+		i++;
+	}
+}
 
 /*
 void generateVarPercentage(int begin, int end, int nrBins){
@@ -273,6 +308,9 @@ void generateVarPercentage(int begin, int end, int nrBins){
 int main(){
 	srand((unsigned)time(0));
 	reinitValues();
+	generateRandomCases(100);
+	/*
+	reinitValues();
 	generateVarDividend(100,10000,100);
 	reinitValues();
 	generateVarDivisor(1,50,50);
@@ -282,6 +320,9 @@ int main(){
 	generateVarReqAtts(2,100,50);
 	reinitValues();
 	generateVarThreshold(1,100,50);
+	*/
+	reinitValues();
+	generateVarGDistribution();
 	//reinitValues();
 	//generateVarPercentage(1,100,50);
 	return 0;
