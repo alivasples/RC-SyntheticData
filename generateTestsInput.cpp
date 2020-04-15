@@ -157,6 +157,7 @@ void generateRandomCases(int nrCases){
 	string fullPath = "";
 	string fileName = "";
 	string fileExt = ".in";
+	nrGroups = 50;
 	for(int i=1; i<=nrCases; i++){
 		generateRandomAtts();
 		fileName = to_string(i);
