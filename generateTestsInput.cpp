@@ -308,7 +308,7 @@ void generateVarPercentage(int begin, int end, int nrBins){
 
 int main(){
 	srand((unsigned)time(0));
-	/*
+	
 	reinitValues();
 	generateRandomCases(100);
 	reinitValues();
@@ -321,7 +321,7 @@ int main(){
 	generateVarReqAtts(2,100,50);
 	reinitValues();
 	generateVarThreshold(1,100,50);
-	*/
+	
 	reinitValues();
 	generateVarGDistribution();
 	//reinitValues();

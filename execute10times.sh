@@ -12,3 +12,4 @@ sh executeRC.sh
 sh executeRC.sh
 sh executeRC.sh
 sh summarizeData.sh
+sh avgData.sh
