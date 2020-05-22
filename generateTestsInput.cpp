@@ -90,7 +90,7 @@ void printQueries(string directory){
 void printCreateIndexes(string directory){
 	ofstream output(directory+"createIndexes.sh");
 	for(int i=0; i<nrReqAtts; i++){
-		output<<"../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data "<<i<<" ";
+		output<<"../../../../../../../Eclipse/IndexCreator/Debug/IndexCreator T1.data "<<i<<" ";
 		if(reqAttsTypes[i] == SIMP_FLOAT or reqAttsTypes[i] == SIMP_STRING) output<<"simple"<<endl;
 		else output<<"complex"<<endl;
 	}
@@ -140,7 +140,7 @@ void reinitValues(){
 	nrT1 = 1000;
 	correlation = 0.5;
 	nrGroups = 10;
-	outlier = "outlier false";
+	outlier = "outlier true";
 	overlapGroups = 0.1;
 	startDistribution = "EXPONENCIAL";
 	fromDistribution = "UNIFORM";
@@ -157,7 +157,10 @@ void generateRandomCases(int nrCases){
 	string fullPath = "";
 	string fileName = "";
 	string fileExt = ".in";
-	nrGroups = 50;
+	nrT1 = 500;
+	nrGroups = 100;
+	threshold = 0.9;
+
 	for(int i=1; i<=nrCases; i++){
 		generateRandomAtts();
 		fileName = to_string(i);
@@ -271,9 +274,9 @@ void generateVarGDistribution(){
 	string fileExt = ".in";
 	int i = 1;
 	for(int j=1; j<=90; j++){
-		if(j==1) toDistribution = "NORMAL";
-		if(j==31) toDistribution = "UNIFORM";
-		if(j==61) toDistribution = "EXPONENCIAL";
+		if(j==1) startDistribution = "NORMAL";
+		if(j==31) startDistribution = "UNIFORM";
+		if(j==61) startDistribution = "EXPONENCIAL";
 		generateRandomAtts();
 		fileName = to_string(i);
 		fullPath = basePath + fileName + "/";
