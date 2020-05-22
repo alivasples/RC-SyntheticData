@@ -1,6 +1,0 @@
-T1.data;T2.data;4;all
-1,and,(2,and,(3,or,4))
-ATT0;ATT0;EUCLIDIAN;0.39;
-ATT1;ATT1;EUCLIDIAN;0.56;
-ATT2;ATT2;<;0;
-ATT3;ATT3;>=;0;
