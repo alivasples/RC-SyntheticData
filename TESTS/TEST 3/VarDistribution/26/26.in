@@ -2,11 +2,11 @@
 1000
 0.5
 10
-outlier false
+outlier true
 0.1
-EXPONENCIAL
-UNIFORM
 NORMAL
+UNIFORM
+UNIFORM
 2
 ATT0(string,8) LEDIT 0.250000
 UNIFORM

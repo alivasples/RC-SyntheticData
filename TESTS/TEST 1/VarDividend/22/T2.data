@@ -1,6 +1,6 @@
-ATT0(string,36);ATT1(float,1);
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;0.691;
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;0.396;
-aaaaaaaaaaaaaaaaa;0.676;
-aaaaaaaaaaaaaaaa;0.917;
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;0.424;
+ATT0(string,9);ATT1(float,10);
+aaaaaa;0.384,0.535,0.558,0.703,0.152,0.49,0.879,0.693,0.647,0.927;
+aaaaa;0.875,0.38,0.853,0.642,0.0833,0.228,0.687,0.513,0.245,0.491;
+aaaaaaaa;0.927,0.0156,0.00674,0.226,0.037,0.145,0.43,0.0521,0.893,0.717;
+aaaaa;0.93,0.338,0.756,0.0379,0.445,0.198,0.673,0.196,0.498,0.992;
+aaaa;0.903,0.0907,0.922,0.552,0.691,0.794,0.285,0.94,0.765,0.743;

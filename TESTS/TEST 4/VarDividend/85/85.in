@@ -2,7 +2,7 @@
 8500
 0.5
 10
-outlier false
+outlier true
 0.1
 EXPONENCIAL
 UNIFORM
