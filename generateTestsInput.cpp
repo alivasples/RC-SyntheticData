@@ -69,8 +69,11 @@ void printQuery(string directory, string qType){
 	// Generating the comparisions between attributes ATT0 </>/<=/... ATT0, etc
 	for(int i=0; i<nrReqAtts; i++){
 		output<<"ATT"<<i<<";"<<"ATT"<<i<<";";
-		if(reqAttsTypes[i] == SIMP_FLOAT or reqAttsTypes[i] == SIMP_STRING){
+		if(reqAttsTypes[i] == SIMP_FLOAT){
 			output<<operation[rand()%5]<<";0;";
+		}
+		else if (reqAttsTypes[i] == SIMP_STRING){
+			output<<"="<<";0;";
 		}
 		//else if(reqAttsTypes[i] == COMP_FLOAT) output<<"EUCLIDIAN;"<<(double)(rand()%99+1)/100.0<<";";
 		else if(reqAttsTypes[i] == COMP_FLOAT) output<<"EUCLIDIAN;"+to_string(threshold)+";";
